@@ -1,0 +1,7 @@
+{
+
+  "CONNECTION_STRING": "ido",
+  "bucketName": "",
+  "coll_name": ""
+
+}
