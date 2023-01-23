@@ -76,6 +76,7 @@ coll = db.get_collection(name=coll_name) # Use coll.insert_one to add documents 
 list = []
 
 def read_from_db():
+    list.clear()
     for doc in coll.find():
     #   print(doc)
         list.append({'Name': doc['name'], 'Date': doc['date'], 'Link': doc['link']})
