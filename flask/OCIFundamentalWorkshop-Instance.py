@@ -52,24 +52,13 @@ region = response.json()['regionInfo']['regionIdentifier']
 
 signer = oci.auth.signers.InstancePrincipalsSecurityTokenSigner()
 
-# compute_client = oci.core.ComputeClient(config={}, signer=signer)
-# instance_id = response.json()['id']
-# instance_info = compute_client.get_instance(instance_id=instance_id)
-# print(instance_info)
-
 ### Getting instance metadata - End
 
 
 
 ### | ADB connection
-# CONNECTION_STRING = "mongodb://admin:QQww123456__@G0D09E25E4D622F-ADB.adb.il-jerusalem-1.oraclecloudapps.com:27017/admin?authMechanism=PLAIN&authSource=$external&ssl=true&retryWrites=false&loadBalanced=true"
 client = MongoClient(CONNECTION_STRING)
 db_name = 'admin'
-# coll_name = 'details'
-
-
-print(client.list_database_names())
-print(client.get_database(name='admin').list_collection_names())
 
 ### ADB connection - End
 
@@ -78,9 +67,6 @@ print(client.get_database(name='admin').list_collection_names())
 ### | Get db & collection
 db = client.get_database(name=db_name)
 coll = db.get_collection(name=coll_name) # Use coll.insert_one to add documents to the collection
-
-# db = client.get_database(name='admin')
-# coll = db.get_collection(name='details') # Use coll.insert_one to add documents to the collection
 
 ### Get db & collection - End
 
