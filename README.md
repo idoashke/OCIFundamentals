@@ -10,11 +10,13 @@ pip install -r requirements.txt
 
 1. **STEP 1 : Create a Bucket**
 
-   1. Open the OCI navigation menu on top left  à  ![](Aspose.Words.e57981d3-20a1-4776-aeee-19390757f30c.001.png)
-   2. Click on Networking à Virtual Cloud Networks
-   3. Click on Start VCN Wizard
-   4. Select Create VCN with Internet Connectivity, and then click Start VCN Wizard.
-   5. Enter the following:
+   1. First, make sure you're using the right region - Israel Central (Jerusalem)
+      ![alt text](http://url/to/img.png)
+   2. Open the OCI navigation menu on top left 
+   3. ----Click on Storage --> Object Storage & Archive Storage --> Buckets
+   4. ----Click on Start VCN Wizard
+   5. ----Select Create VCN with Internet Connectivity, and then click Start VCN Wizard.
+   6. ----Enter the following:
    VCN Name: Enter a name for your cloud network. The name is incorporated into the names of all the related resources that are automatically created. Avoid entering confidential information.
    
 1. **STEP 2 : Compute Instance Creation**
