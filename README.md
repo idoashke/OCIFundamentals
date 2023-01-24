@@ -9,7 +9,8 @@ pip install -r requirements.txt
 **Lab 1 – OCI Fundamentals** 
 
 1. **STEP 1 : Create a Bucket**
-       1. Open the OCI navigation menu on top left  à  ![](Aspose.Words.e57981d3-20a1-4776-aeee-19390757f30c.001.png)
+
+   1. Open the OCI navigation menu on top left  à  ![](Aspose.Words.e57981d3-20a1-4776-aeee-19390757f30c.001.png)
    2. Click on Networking à Virtual Cloud Networks
    3. Click on Start VCN Wizard
    4. Select Create VCN with Internet Connectivity, and then click Start VCN Wizard.
