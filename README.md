@@ -6,7 +6,7 @@ Welcome to OCI Fundamentals Workshop!
 pip install -r requirements.txt 
 
 
-**Lab 1 – OCI Fundamentals** 
+<ins>**Lab 1 – OCI Fundamentals** </ins>
 
 1. **STEP 1 : Create a Bucket**
 
